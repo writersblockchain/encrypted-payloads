@@ -70,15 +70,14 @@ let encrypt_tx = async () => {
     ecdh(userPrivateKeyBytes, gatewayPublicKeyBytes)
   );
 
-  const key = "secret sauce";
-  const value = "i love anewbiz";
-  const viewing_key = "my viewing key";
+  const myAddress = "";
+  const key = "";
+  const value = "";
+  const viewing_key = "";
   const callback_gas_limit = 300000;
 
   //the function name of the function that is called on the private contract
   const handle = "store_value";
-
-  const myAddress = "0x49e01eb08bBF0696Ed0df8cD894906f7Da635929";
 
   const data = JSON.stringify({
     key: key,
